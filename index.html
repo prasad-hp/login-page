@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .container{
+                display: flex;
+                padding-right: 30vh;
+                padding-left: 30vh;
+                padding-top: 14vh;
+                padding-bottom: 20vh;
+                
+                /* margin: 15%; */
+            }
+            .login-containers{
+                background-color: white;
+                margin-right: 9%;
+                margin-top: 5vh;
+                width: 30%;
+                height: 45vh;
+                border-radius: 20px;
+                padding: 3%;
+
+            }
+            .signup-containers{
+                background-color: white;
+                margin-left: 9%;
+                width: 30%;
+                height: 55vh;
+                border-radius: 20px;
+                padding: 3%;
+            }
+            input{
+                border:none;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              : 0px;
+                height: 90%;
+                width: 98.5%;
+                margin: 0%;
+            }
+            fieldset{
+                padding: 0%;
+                background-color: white;
+                width: 90%;
+                height: 50px;
+                /* margin: auto; */
+                border-radius: 7px;
+                margin: 4%;
+
+            }
+            body{
+                background-image: linear-gradient(to bottom left, rgb(144,44,220), rgb(203,76,203));
+                background-repeat: no-repeat;
+                font-size: medium;
+            }
+            .button{
+                background-image: linear-gradient(to bottom left, rgb(144,44,220), rgb(203,76,203));
+                height: 45px;
+                width: 75%;
+                align-items: center;
+                margin: auto;
+                border-radius: 20px;
+                text-align: center;
+                color: white;
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 30px;
+                padding-top: 1.5%;
+                
+            }   
+            .bottom-text{
+                text-align: center;
+            }
+            legend{
+                font-weight: bolder;
+            }
+            a{
+                font-weight:bolder;
+                color: rgb(144,44,220);
+            }
+            .above-text{
+                margin: 4%;
+                margin-left: 13%;
+            }
+            .right-text{
+                margin-left: 60%;
+            }
+            h1{
+                text-align: center;
+                margin-bottom: 10%;
+                position: relative;
+
+            }
+            h1:before{
+                content: "";
+                position: absolute;
+                width: 10%;
+                height: 1px;
+                bottom: 0;
+                left: 40%;
+                border-bottom: 5px solid rgb(144,44,220);
+                border-radius: 2px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-containers">
+            <h1>
+                Login
+            </h1 class="short-underline">
+            <div>
+                <fieldset>
+                    <legend>Username</legend>
+                        <input type="text"></input>
+                </fieldset>
+
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Password</legend>
+                        <input type="text"></input>
+                </fieldset>
+            </div>
+            <div class="above-text">
+                <a class="right-text">Forgot password ?</a>
+            </div>
+            <div class="button">Login</div>
+            <div class="bottom-text">
+                <p>Don't have account ? <a>Signup</a></p>
+                <a >Need help ?</a>
+            </div>
+        </div>
+        <div class="signup-containers">
+            <h1 class="short-underline">
+                Signup
+            </h1>
+            <div>
+                <fieldset>
+                    <legend>Username</legend>
+                        <input type="text"></input>
+                </fieldset>
+
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Email Id</legend>
+                        <input type="text"></input>
+                </fieldset>
+
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Create password</legend>
+                        <input type="text"></input>
+                </fieldset>
+
+            </div>
+            <div class="above-text">
+                <p>By creating an account, I agree to <a>Terms and <p class="right-text">Conditions</p></a></p>
+            </div>
+            <div class="button">Create Account</div>
+            <div class="bottom-text">
+                <p>Already have an account ? <a>Login</a></p>
+                <a>Need help ?</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
